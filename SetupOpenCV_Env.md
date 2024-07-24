@@ -7,6 +7,8 @@ To set up a virtual environment to run OpenCV and necessary packages, follow the
 ```bash
 python3 -m venv env  # Replace `env` with your preferred environment name
 ```
+*(Note: Press `Tab` after `python` to see the available versions.)*
+
 
 ### 2. Activate the Virtual Environment
 
@@ -29,7 +31,7 @@ pip install matplotlib
 
 ---
 
-
+Steps :
 
 - **Create a Virtual Environment**: This command sets up a virtual Python environment named `env` (you can replace `env` with any name you choose) in the current directory.
 
