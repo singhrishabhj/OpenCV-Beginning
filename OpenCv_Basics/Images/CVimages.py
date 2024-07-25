@@ -30,7 +30,7 @@ give you the matrix , it read all the pixel from images and assigned it to img v
 
 cv2.imshow('image',img)
 
-cv2.waitKey(5000) #image show only for 5 sec 
+cv2.waitKey(5000)                 #image show only for 5 sec 
 cv2.destroyAllWindows() 
 
 cv2.imwrite('1CopyImage.png',img) #used to write image int he form of file
