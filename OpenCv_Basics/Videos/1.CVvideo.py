@@ -1,10 +1,10 @@
 import cv2
 
-capture = cv2.VideoCapture(0) #initialize video capturing object
+capture = cv2.VideoCapture(0) # initialize video capturing object
 
 
 
-#this capture live stream from camera and also used to display the video file too
+# this capture live stream from camera and also used to display the video file too
 
 # You can the video file as an arguments or you want provide your device index of your camera 0,-1->default camera , 1- second camera , 2- second camera
 
@@ -34,11 +34,11 @@ while(True):
     cv2.imshow('Frame',frame) 
     #Display the Frame
     
-    #used to show the video (the frame will be showed which is stored in the frame variable)
+    # used to show the video (the frame will be showed which is stored in the frame variable)
     
-    key=cv2.waitKey(1) & 0xFF #Wait for a keypress 
+    key=cv2.waitKey(1) & 0xFF # Wait for a keypress 
 
-    if key==ord('q'):  #Exit the loop if 'q'is pressed
+    if key==ord('q'):  # Exit the loop if 'q'is pressed
         break
 
 capture.release()
